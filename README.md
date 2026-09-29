@@ -18,7 +18,7 @@
 ## 安装（源码引入）
 
 ```bash
-npm install github:niudunpay/niudun-pay-sdk-node
+npm install github:niudunpay/niudun-pay-node
 ```
 
 ```ts
@@ -104,7 +104,7 @@ npm run build && node demo/server.mjs
 
 ## License
 
-Apache-2.0，可自由用于商业项目与闭源集成，协议全文见 [LICENSE](LICENSE)。主仓库 [牛盾支付 Open](https://gitee.com/niudunpay/niudun-pay) 核心为 LGPL-3.0-or-later，本 SDK 作为独立仓按 Apache-2.0 单独发布。
+Apache-2.0，可自由用于商业项目与闭源集成，协议全文见 [LICENSE](LICENSE)。主仓库 [牛盾支付 Open](https://gitee.com/qyyapp) 核心为 LGPL-3.0-or-later，本 SDK 作为独立仓按 Apache-2.0 单独发布。
 
 ## 开源许可与来源
 
