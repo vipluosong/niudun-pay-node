@@ -1,0 +1,28 @@
+{
+  "name": "@niudun/open-sdk",
+  "version": "1.0.0",
+  "description": "牛盾支付 开放支付平台 Node.js SDK（核心支付子集：pay / close / refund / query / 回调验签）",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["niudun", "payment", "sdk", "alipay", "wechat"],
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^2.0.5",
+    "@types/node": "^20.14.0"
+  }
+}
