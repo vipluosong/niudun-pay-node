@@ -1,4 +1,4 @@
-/// 牛盾支付 Open SDK for Node.js — 公共入口
+/// 牛盾聚合支付 Open SDK for Node.js — 公共入口
 export type { Config } from './config.js'
 export { NiuDunClient } from './client.js'
 export { NiuDunError, ErrorCode } from './types.js'

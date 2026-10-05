@@ -1,4 +1,4 @@
-// 牛盾支付 支付下单示例 — Node.js
+// 牛盾聚合支付下单示例 — Node.js
 // 运行前：启动后端（niudun-start，端口 9999），并替换为真实商户密钥
 import { NiuDunClient } from '../src/index'
 import type { PayParam } from '../src/index'

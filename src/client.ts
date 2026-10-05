@@ -49,7 +49,7 @@ function nowGmt8(): string {
   )
 }
 
-/// 牛盾支付 SDK 客户端 — 对照 sdk-contract.md 第十节
+/// 牛盾聚合支付 SDK 客户端 — 对照 sdk-contract.md 第十节
 export class NiuDunClient {
   private readonly serviceUrl: string
   private readonly timeout: number

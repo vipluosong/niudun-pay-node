@@ -1,4 +1,4 @@
-// 牛盾支付 Node.js SDK 联调 Demo 服务
+// 牛盾聚合支付 Node.js SDK 联调 Demo 服务
 //
 // 单命令启动的本地联调工具，**所有交易调用都经 NiuDunClient 走 SDK 真实调用链**（签名/请求/验签），
 // 同时验证 SDK 与平台 unipay 接口两侧：
@@ -501,7 +501,7 @@ const server = createServer(async (req, res) => {
 
 server.listen(port, '127.0.0.1', () => {
   const cfg = currentConfig
-  console.log('牛盾支付 Node.js SDK 联调 Demo 已启动')
+  console.log('牛盾聚合支付 Node.js SDK 联调 Demo 已启动')
   console.log('  调试页面 : http://127.0.0.1:' + port)
   console.log('  平台地址 : ' + cfg.serviceUrl + '  (商户 ' + (cfg.mchNo || '-') + ')')
   console.log(
