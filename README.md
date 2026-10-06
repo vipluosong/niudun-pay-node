@@ -18,7 +18,10 @@
 ## 安装（源码引入）
 
 ```bash
-npm install github:niudunpay/niudun-pay-node
+# Gitee（主仓）
+npm install git+https://gitee.com/qyyapp/niudun-pay-node.git
+# GitHub（镜像）
+npm install github:vipluosong/niudun-pay-node
 ```
 
 ```ts
