@@ -19,7 +19,7 @@
 
 ```bash
 # npm 官方源（推荐）
-npm install @niudun/open-sdk
+npm install niudun-pay
 ```
 
 也可以直接从代码仓库安装（会本地构建，需 Node 18+ 与 TypeScript 工具链）：
@@ -32,7 +32,7 @@ npm install github:vipluosong/niudun-pay-node
 ```
 
 ```ts
-import { NiuDunClient, Config } from '@niudun/open-sdk'
+import { NiuDunClient, Config } from 'niudun-pay'
 ```
 
 ## 快速开始
