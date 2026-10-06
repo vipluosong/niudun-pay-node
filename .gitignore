@@ -3,6 +3,7 @@ dist/
 *.log
 npm-debug.log*
 .npm
+.npmrc
 .idea/
 .vscode/
 *.tsbuildinfo
