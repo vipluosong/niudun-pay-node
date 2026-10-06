@@ -39,7 +39,7 @@ import { NiuDunClient, Config } from 'niudun-pay'
 
 ```ts
 const client = new NiuDunClient({
-  serviceUrl: 'https://sandbox.niudunpay.cn',
+  serviceUrl: 'https://ndpay-api.qyyapp.com',
   mchNo: 'M200000001',
   appId: 'APP001',
   privateKey: merchantPrivateKeyPem,    // PEM 文本
