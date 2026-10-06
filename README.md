@@ -15,7 +15,14 @@
 - 异步回调验签
 - 完整 TypeScript 类型（金额一律 `number`，单位**分**）
 
-## 安装（源码引入）
+## 安装
+
+```bash
+# npm 官方源（推荐）
+npm install @niudun/open-sdk
+```
+
+也可以直接从代码仓库安装（会本地构建，需 Node 18+ 与 TypeScript 工具链）：
 
 ```bash
 # Gitee（主仓）
