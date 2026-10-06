@@ -1,6 +1,6 @@
 /// SDK 配置 — 对照 sdk-contract.md 第十节
 export interface Config {
-  /** 网关地址（自动去尾斜杠），如 https://ndpay-api.qyyapp.com */
+  /** 网关地址（自动去尾斜杠），如 https://api.niudunpay.com */
   serviceUrl: string
   /** 商户号 */
   mchNo: string
